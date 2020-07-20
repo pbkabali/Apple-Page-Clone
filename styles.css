@@ -9,13 +9,52 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     height: 70vh;
-    margin-top: -20px;
+    margin-top: 
 }
 
 .nav {
-    background-color: blue;
+    background-color: darkgoldenrod;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+    
+    height: 2.7em;
+    width: 80%;
+    z-index: 1;
+    top: 4.5em;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    border-radius: 5px;
 
 }
+.nav ul {
+    justify-content: space-between;
+    align-items: baseline;
+    display: inline-block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+    
+}
+
+.nav img {
+    width: 25px;
+    height: 25px;
+    
+}
+
+.nav li {
+    display: block;
+    background-color: crimson;
+    z-index: 1;
+    width: 100%;
+    height: 2.7em;
+}
+
 
 .thumbnails {
     height: 25vh;
