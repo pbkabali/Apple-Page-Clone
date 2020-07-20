@@ -1,6 +1,15 @@
+body {
+    margin: 0;
+}
+
 .header {
     background-color: antiquewhite;
     background-image: url(./graphics/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 70vh;
+    margin-top: -20px;
 }
 
 .nav {
@@ -9,16 +18,29 @@
 }
 
 .thumbnails {
-    background-color: brown;
+    height: 25vh;
     display: flex;
     flex-direction: row;
     width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 2px 0 0 0;
+    justify-content: space-between;
 }
 
 .thumbnails img {
-    width: 25vw;
+    width: 24.85vw;
 }
 
 .footer {
-    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    font-size: .6em;
+}
+
+.footer img {
+    width: 25px;
+    height: 25px;
 }
