@@ -1,0 +1,24 @@
+.header {
+    background-color: antiquewhite;
+    background-image: url(./graphics/main.jpg);
+}
+
+.nav {
+    background-color: blue;
+
+}
+
+.thumbnails {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.thumbnails img {
+    width: 25vw;
+}
+
+.footer {
+    background-color: chocolate;
+}
