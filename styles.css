@@ -8,8 +8,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 70vh;
-    margin-top: 
+    height: 70vh; 
 }
 
 .nav {
@@ -17,6 +16,8 @@ body {
     position: relative;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     
     
     height: 2.7em;
@@ -28,31 +29,27 @@ body {
     border-radius: 5px;
 
 }
-.nav ul {
-    justify-content: space-between;
-    align-items: baseline;
-    display: inline-block;
-    list-style-type: none;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0;
-    
+
+.nav-item1 {
+    width: auto;
+    height: 100%;
+    display: block;
+    border: 1px white solid;
+    z-index: 1;
+    display: flex;
+    flex: 1;
+    text-align: center;
+
+}
+
+.nav-item1 div {
+    background: blue;
 }
 
 .nav img {
     width: 25px;
     height: 25px;
     
-}
-
-.nav li {
-    display: block;
-    background-color: crimson;
-    z-index: 1;
-    width: 100%;
-    height: 2.7em;
 }
 
 
