@@ -128,14 +128,14 @@ h3 {
 }
 
 .thumbnails img {
-  width: 24.85vw;
+  width: 100%;
 }
 
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 10vh;
+  height: 100px;
   font-size: 0.7em;
 }
 
