@@ -1,6 +1,12 @@
 body {
     margin: 0;
 }
+body * {
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 .header {
     background-color: antiquewhite;
@@ -8,50 +14,82 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 70vh; 
+    height: 68vh;
+    padding-top: 6%;
 }
 
 .nav {
-    background-color: darkgoldenrod;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    
-    
-    height: 2.7em;
-    width: 80%;
-    z-index: 1;
-    top: 4.5em;
-    text-align: center;
+    height: 2.5em;
+    width: 70%;
     margin: 0 auto 0 auto;
-    border-radius: 5px;
-
 }
 
 .nav-item1 {
-    width: auto;
+    float: left;
+    width: 10.5%;
     height: 100%;
-    display: block;
     border: 1px white solid;
-    z-index: 1;
-    display: flex;
     flex: 1;
     text-align: center;
+    line-height: 2.5em;
+    background-color: hsla(230,7%,75%,1);
+}
+
+.nav-item-left {
+    line-height: 2em;
 
 }
 
-.nav-item1 div {
-    background: blue;
+.nav-item-right {
+    width: 16%;
+
 }
+
 
 .nav img {
-    width: 25px;
-    height: 25px;
-    
+    width: 18px;
+    height: 22px;
+    vertical-align: middle;
+    margin: 0;   
 }
 
+.nav input {
+    width: 70%;
+}
+
+.main-text {
+    text-align: center;
+}
+
+.main-text a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-text img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: .3em;
+}
+
+
+h1{
+    font-size: 4em;
+    margin: 0.5em 0 0.3em 0;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 100;
+} 
+
+h3 {
+    margin-top: 1.5em;
+    font-size: 1.5em;
+    font-weight: 100;
+} 
 
 .thumbnails {
     height: 25vh;
