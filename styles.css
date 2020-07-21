@@ -22,26 +22,51 @@ body * {
     height: 2.5em;
     width: 70%;
     margin: 0 auto 0 auto;
+    
 }
 
 .nav-item1 {
     float: left;
     width: 10.5%;
     height: 100%;
-    border: 1px white solid;
+    border-right: 1px rgb(65, 65, 65) double;
     flex: 1;
     text-align: center;
     line-height: 2.5em;
-    background-color: hsla(230,7%,75%,1);
+    color: #fff;
+    background: #fff;
+    background: linear-gradient(to bottom, #8d8d8d 30%, rgb(29, 29, 29), #5f5f5f );
+    
+}
+
+
+nav-item1 :after {
+    position: absolute;
+    background: radial-gradient(rgb(39, 39, 39),rgb(109, 109, 109));
+
+}
+
+.nav-item1 :hover:after {
+    cursor: pointer;
+    background: radial-gradient(rgb(39, 39, 39),rgb(109, 109, 109));
+   
 }
 
 .nav-item-left {
     line-height: 2em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px rgb(65, 65, 65) solid;
+    
+    
 
 }
 
 .nav-item-right {
     width: 16%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: none;
 
 }
 
@@ -55,6 +80,16 @@ body * {
 
 .nav input {
     width: 70%;
+    border-radius: 20px;
+    padding: 2px;
+    border: 1px #5f5f5f solid;
+    background: linear-gradient(to bottom, #8d8d8d 30%, rgb(29, 29, 29), #5f5f5f );
+    background-image: url(./graphics/search-icon.png);
+    background-size: 1rem;
+    background-position-x: 5px;
+    background-position-y: 2px;
+    background-repeat: no-repeat;
+    
 }
 
 .main-text {
